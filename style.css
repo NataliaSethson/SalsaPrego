@@ -285,14 +285,15 @@ body::before {
     -webkit-font-smoothing: antialiased;
     position: relative;
 }
+
 .airplane-icon {
-    display: inline-block; 
-    vertical-align: middle; 
-    width: 90px;            
+    display: inline-block;
+    vertical-align: middle;
+    width: 90px;
     height: auto;
-    margin-left: 10px;     
-    transform: rotate(15deg); 
-    filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.4)); 
+    margin-left: 10px;
+    transform: rotate(15deg);
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.4));
 }
 
 /* 7. GRID DE PASOS Y TARJETAS */
@@ -363,9 +364,10 @@ body::before {
     align-items: center;
     justify-content: flex-start !important;
     text-align: center;
-    flex-grow: 1; 
+    flex-grow: 1;
     min-height: 120px;
 }
+
 .step-instruction3 {
     color: #ffffff;
     font-family: 'Slate-Regular', sans-serif;
@@ -529,7 +531,8 @@ body::before {
         gap: 10px;
         width: 100%;
     }
-    .steps-grid{
+
+    .steps-grid {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -541,18 +544,20 @@ body::before {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 15px; 
-        padding-bottom: 40px; 
+        gap: 15px;
+        padding-bottom: 40px;
     }
 
-    .step-img, .step-icon, .step-icon2 {
-        order: 1; 
+    .step-img,
+    .step-icon,
+    .step-icon2 {
+        order: 1;
         margin: 0 auto !important;
         width: 140px !important;
         height: auto !important;
     }
 
-    
+
     .step-label {
         order: 2;
         margin-bottom: 0 !important;
@@ -563,7 +568,7 @@ body::before {
         flex-grow: 0 !important;
         min-height: 0 !important;
         margin-bottom: 0 !important;
-        width: 90%; 
+        width: 90%;
     }
 
     .promo-highlight {
@@ -583,12 +588,12 @@ body::before {
     .main-title {
         text-align: center;
         width: 100%;
-        font-size: 1.9rem !important; 
+        font-size: 1.9rem !important;
         position: relative;
         display: block;
     }
 
-    
+
     .cta-container {
         position: fixed;
         bottom: 0;
@@ -608,6 +613,11 @@ body::before {
         text-align: center;
         padding: 12px 0;
         font-size: 1.2rem;
+    }
+
+    .frasco-animado {
+        display: none;
+        animation: vueloCorto 8s linear infinite;
     }
 
     body {
@@ -654,7 +664,7 @@ body::before {
         text-align: center;
     }
 
-    .btn-participa{
+    .btn-participa {
         margin: 15px;
     }
 }
@@ -722,7 +732,7 @@ body::before {
         padding: 0 !important;
     }
 
-    .btn-participa{
+    .btn-participa {
         margin: 15px;
     }
 }
@@ -783,7 +793,8 @@ body::before {
         justify-content: center !important;
         padding: 0 !important;
     }
-    .btn-participa{
+
+    .btn-participa {
         margin: 15px;
     }
 }
@@ -862,7 +873,7 @@ body::before {
         padding: 10px 0 !important;
     }
 
-    .btn-participa{
+    .btn-participa {
         margin: 15px;
     }
 }
